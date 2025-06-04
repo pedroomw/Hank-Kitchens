@@ -18,8 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\49552421\Hank-s-Kitchen
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/49552421/Hank-s-Kitchen/Views/Home/creditos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjcmVkaXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/49552421/Hank-s-Kitchen/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Hank-s-Kitchen/Views/Home/menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Hank-s-Kitchen/Views/Home/Pantalla1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYW50YWxsYTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Hank-s-Kitchen/Views/Home/tutorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0dXRvcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/49552421/Hank-s-Kitchen/Views/Shared/_Layout.cshtml]

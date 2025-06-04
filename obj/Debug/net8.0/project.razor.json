@@ -19334,6 +19334,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\49552421\\Hank-s-Kitchen\\Views\\Home\\Pantalla1.cshtml",
+      "TargetPath": "Views\\Home\\Pantalla1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49552421\\Hank-s-Kitchen\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -19349,8 +19354,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\49552421\\Hank-s-Kitchen\\Views\\Home\\tutorial.cshtml",
+      "TargetPath": "Views\\Home\\tutorial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49552421\\Hank-s-Kitchen\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\49552421\\Hank-s-Kitchen\\Views\\Home\\menu.cshtml",
+      "TargetPath": "Views\\Home\\menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\49552421\\Hank-s-Kitchen\\Views\\Home\\creditos.cshtml",
+      "TargetPath": "Views\\Home\\creditos.cshtml",
       "FileKind": "mvc"
     }
   ],
