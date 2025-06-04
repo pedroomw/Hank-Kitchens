@@ -5,4 +5,13 @@
 <div>
     <h1>Index</h1>
     <p>Bienvenidos al sitio web de NombreProyecto</p>
+    
+    
+        <form method="post" action="login.html">
+        <form action = '@Url.Action("GuardarDatos" "Home")' method = "POST" enctype =multipart/form-data>
+            <h1>Nombre usuario</h1>
+            <input type="text" id="nombre" name="nombre" placeholder="Enter Username"/>
+           <button type="submit">Ingresar</button>
+
+     </form>
 </div>
