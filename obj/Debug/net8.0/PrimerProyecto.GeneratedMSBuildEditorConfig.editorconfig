@@ -9,47 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrimerProyecto
 build_property.RootNamespace = PrimerProyecto
-build_property.ProjectDir = C:\Users\49552421\Hank-s-Kitchen\
+build_property.ProjectDir = C:\Users\49552421\Documents\Hank-s-Kitchen\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\49552421\Hank-s-Kitchen
+build_property.MSBuildProjectDirectory = C:\Users\49552421\Documents\Hank-s-Kitchen
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Home/creditos.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Home/Index.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Home/menu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZW51LmNzaHRtbA==
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Home/Pantalla1.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Pantalla1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYW50YWxsYTEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Home/tutorial.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Pantalla2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYW50YWxsYTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Pantalla3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYW50YWxsYTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Pantalla4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYW50YWxsYTQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/perdiste.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwZXJkaXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/tutorial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0dXRvcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Shared/_Layout.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/_ViewImports.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Hank-s-Kitchen/Views/_ViewStart.cshtml]
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

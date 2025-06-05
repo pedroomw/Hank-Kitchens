@@ -1,13 +1,14 @@
 @{
-    ViewData["Title"] = "menu";
+    ViewData["Title"] = "Menu";
 }
 
 <div>
     <h1>Bienvenido</h1>
     <ul >
-                <li><a href="Pantalla1.cshtml">Jugar</a></li>
-                <li><a href="tutorial.cshtml"> Tutorial</a></li>
-                    <li><a href="creditos.cshtml"> Más información</a></li>
+               
+                <li><a href='@Url.Action("SiguienteNivel", "Home")'>Jugar</a></li>
+                <li><a href='@Url.Action("Tutorial", "Home")'> Tutorial</a></li>
+                <li><a href='@Url.Action("Creditos", "Home")'> Más información</a></li>
                
             </ul>
 </div>
