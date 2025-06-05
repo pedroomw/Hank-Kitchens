@@ -21,39 +21,57 @@ public class HomeController : Controller
 
 
     [HttpPost]
-    public IActionResult GuardarNombre(string nombre)
+    public IActionResult GuardarNombre(string nombreJugador)
     {
-        HttpContext.Session.SetString("nombreJugador", nombre);
+        juego Juego1 = new juego (nombreJugador);
+           HttpContext.Session.SetString("juego",Objeto.ObjectToString(Juego1));
+           
         return View("Menu");
     }
 
    public IActionResult GuardarPersonaje(string personaje)
-    {
-        HttpContext.Session.SetString("nombrePersonaje", personaje);
-        if(personaje == "Ciruja")
         {
-            return View("Perdiste");
+          
+            juego Juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+
+
+            Juego1.nombrePersonaje = personaje;
+            HttpContext.Session.SetString("juego", Objeto.ObjectToString(Juego1));
+
+         
+            if (personaje == "Ciruja")
+            {
+                return View("Perdiste");
+            }
+            else
+            {
+                return RedirectToAction("SiguienteNivel");
+            }
         }
-         else
-         { 
-        return RedirectToAction("SiguienteNivel"); }
-    }
+
 
 
     public IActionResult SiguienteNivel()
     {
+        juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+        juego1.nivel++;
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
 
-        switch(Pantalla){
-        case 1:
-            return View();
-            break;
 
-        case 2:
-            return View();
-            break;
+switch(juego1.nivel)
 
-        case 3:
-        }
+{
+    case 1:
+        return View("Pantalla1");
+    case 2:
+        return View("Pantalla2");
+    case 3:
+        return View("Pantalla3");
+    case 4:
+        return View("Pantalla4");
+    default:
+        return View("Perdiste");
+}
     }
 
     public IActionResult Menu()
@@ -70,5 +88,38 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Carta()
+    {
+        return View();
+    }
 
+    public IActionResult ConfirmarClave(string ClaveIngresada)
+    {
+        if(ClaveIngresada == "7777")
+        {
+            return RedirectToAction("SiguienteNivel");
+        } else{
+            return RedirectToAction("NivelActual");
+        }
+    }
+
+    public IActionResult NivelActual()
+
+    
+    {
+        juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+        switch(juego1.nivel)
+            {
+            case 1:
+                return View("Pantalla1");
+            case 2:
+                return View("Pantalla2");
+            case 3:
+                return View("Pantalla3");
+            case 4:
+                return View("Pantalla4");
+            default:
+                return View("Perdiste");
+    }
+    }
 }

@@ -5,12 +5,11 @@ public class juego
 
     public string nombreJugador { get; set; }
     public string nombrePersonaje { get; set; }
-
     public int nivel { get; set; }
-    public juego (string nombreJugador,  int nivel )
+    public juego (string nombreJugador)
     {
-        this.nombreJugador = nombreJugador;
-        this.nombrePersonaje = nombrePersonaje;
-        this.nivel = 0;
+        nombreJugador = nombreJugador;
+        nivel = 0;
+        nombrePersonaje = null;
     }
 }

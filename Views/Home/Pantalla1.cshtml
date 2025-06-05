@@ -1,5 +1,9 @@
+@{
+    ViewData["Title"] = "Pantalla1";
+}
+
 <div>
-<h1>Tras una larga tarde de  estudio, decides volver a casa. No sin antes, comerte unas empanadas del vasquito...</h1>
+<h1>  @nombrePersonaje Tras una larga tarde de  estudio, decides volver a casa. No sin antes, comerte unas empanadas del vasquito...</h1>
 <li><a href='@Url.Action("SiguienteNivel", "Home")'> Entrar al Vasquito</a></li>
 <li><a href='@Url.Action("Perdiste", "Home")'> No entrar, no tenes hambre</a></li>
 </div>
