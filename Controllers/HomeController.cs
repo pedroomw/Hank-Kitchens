@@ -23,10 +23,10 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult GuardarNombre(string nombreJugador)
     {
-        juego Juego1 = new juego (nombreJugador);
-           HttpContext.Session.SetString("juego",Objeto.ObjectToString(Juego1));
-           
-        return View("Menu");
+            juego Juego1 = new juego (nombreJugador);
+            HttpContext.Session.SetString("juego",Objeto.ObjectToString(Juego1));
+            ViewBag.NombreJugador = nombreJugador;
+            return View("Menu");
     }
 
    public IActionResult GuardarPersonaje(string personaje)
@@ -69,6 +69,13 @@ switch(juego1.nivel)
         return View("Pantalla3");
     case 4:
         return View("Pantalla4");
+    case 5:
+        return View("Pantalla5");
+    case 6:
+        return View("Pantalla6");
+    case 7:
+        return View("Pantalla7");
+
     default:
         return View("Perdiste");
 }
@@ -76,6 +83,10 @@ switch(juego1.nivel)
 
     public IActionResult Menu()
     {
+        juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+        juego1.nivel = 0;
+        juego1.nombrePersonaje = null;
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
         return View();
     }
 
@@ -93,9 +104,17 @@ switch(juego1.nivel)
         return View();
     }
 
-    public IActionResult ConfirmarClave(string ClaveIngresada)
+    public IActionResult Puerta()
     {
-        if(ClaveIngresada == "7777")
+         return View();
+    }
+
+    public IActionResult ConfirmarClave(string claveIngresada)
+    {
+        juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+
+
+        if(claveIngresada == juego1.clave)
         {
             return RedirectToAction("SiguienteNivel");
         } else{
@@ -104,8 +123,6 @@ switch(juego1.nivel)
     }
 
     public IActionResult NivelActual()
-
-    
     {
         juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
         switch(juego1.nivel)
@@ -118,6 +135,12 @@ switch(juego1.nivel)
                 return View("Pantalla3");
             case 4:
                 return View("Pantalla4");
+            case 5:
+                return View("Pantalla5");
+            case 6:
+                return View("Pantalla6");
+            case 7:
+                return View("Pantalla7");
             default:
                 return View("Perdiste");
     }

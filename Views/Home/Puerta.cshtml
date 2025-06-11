@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Carta";
+}
+
+<form action='@Url.Action("ConfirmarClave", "Home")' method="post" enctype="multipart/form-data">
+    <input type="text" id="claveIngresada" name="claveIngresada" placeholder="Ingresa la clave de la puerta"/>
+        <button type="submit">Confirmar Codigo</button>
+    </form>
+
+<a href='@Url.Action("NivelActual", "Home")'> Regresar</a>

@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\49552421\Documents\Hank-s-Kitchen
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Carta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,8 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Menu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Pantalla1.cshtml]
@@ -60,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Perdiste.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJkaXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/Puerta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQdWVydGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/49552421/Documents/Hank-s-Kitchen/Views/Home/tutorial.cshtml]
