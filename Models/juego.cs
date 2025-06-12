@@ -16,16 +16,16 @@ public class juego
         
          public juego (string nombreJugador)
     {
-         this.nombreJugador = nombreJugador;
+        this.nombreJugador = nombreJugador;
         nivel = 0;
         nombrePersonaje = null;
         clave = "7777";
         palabra = "HUMITA";
-         intentos = 0;
-            letrasAdivinadas = new List<char>();
-            intentosLetra = new List<char>();
-            palabraActualVector = new char[palabra.Length];
-            palabraActual = "";
+        intentos = 0;
+        letrasAdivinadas = new List<char>();
+        intentosLetra = new List<char>();
+        palabraActualVector = new char[palabra.Length];
+        palabraActual = "";
     }
 
 
@@ -50,9 +50,9 @@ public class juego
         }
 
         else {
-             intentos ++;
-               actualizarPalabra(letraIngresada);
-             intentosLetra.Add(letraIngresada);
+                intentos ++;
+                actualizarPalabra(letraIngresada);
+                intentosLetra.Add(letraIngresada);
         }
     }
 

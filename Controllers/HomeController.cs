@@ -58,29 +58,41 @@ public class HomeController : Controller
         HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
 
 
-switch(juego1.nivel)
-
-{
-    case 1:
-        return View("Pantalla1");
-    case 2:
-        return View("Pantalla2");
-    case 3:
-        return View("Pantalla3");
-    case 4:
-        return View("Pantalla4");
-    case 5:
-        return View("Pantalla5");
-    case 6:
-        return View("Pantalla6");
-    case 7:
-        return View("Pantalla7");
-    case 8:
-        return RedirectToAction("InicializarAhorcado");
-
-    default:
-        return View("Perdiste");
-}
+ switch(juego1.nivel)
+            {
+            case 1:
+                return View("Pantalla1");
+            case 2:
+                return View("Pantalla2");
+            case 3:
+                return View("Pantalla3");
+            case 4:
+                return View("Pantalla4");
+            case 5:
+                return View("Pantalla5");
+            case 6:
+                return View("Pantalla6");
+            case 7:
+                return View("Pantalla7");
+            case 8:
+                return View("Pantalla8");
+            case 9:
+                return View("Pantalla9");
+            case 10:
+                return View("Pantalla10");
+            case 11:
+                return View("Pantalla11");
+            case 12:
+                return View("Pantalla12");
+            case 13:
+                return View("Pantalla13");
+            case 14:
+                return View("Pantalla14");
+            case 15:
+                return View("Pantalla15");
+            default:
+                return View("Perdiste");
+    }
     }
 
     public IActionResult Menu()
@@ -92,7 +104,10 @@ switch(juego1.nivel)
         return View();
     }
 
-
+    public IActionResult ElementoEquivocado()
+    {
+        return View();
+    }
 
 public IActionResult InicializarAhorcado()
 {
@@ -187,8 +202,25 @@ public IActionResult ArriesgarPalabra(string palabra)
                 return View("Pantalla6");
             case 7:
                 return View("Pantalla7");
+            case 8:
+                return View("Pantalla8");
+            case 9:
+                return View("Pantalla9");
+            case 10:
+                return View("Pantalla10");
+            case 11:
+                return View("Pantalla11");
+            case 12:
+                return View("Pantalla12");
+            case 13:
+                return View("Pantalla13");
+            case 14:
+                return View("Pantalla14");
+            case 15:
+                return View("Pantalla15");
             default:
                 return View("Perdiste");
     }
     }
-}
+
+    }
