@@ -75,6 +75,8 @@ switch(juego1.nivel)
         return View("Pantalla6");
     case 7:
         return View("Pantalla7");
+    case 8:
+        return RedirectToAction("InicializarAhorcado");
 
     default:
         return View("Perdiste");
@@ -89,6 +91,50 @@ switch(juego1.nivel)
         HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
         return View();
     }
+
+
+
+public IActionResult InicializarAhorcado()
+{
+    juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+    juego1.inicializarPalabraActual();
+ HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));  
+  ViewBag.LetrasAdivinadas = juego1.letrasAdivinadas;
+    ViewBag.Palabra = juego1.palabra;
+    ViewBag.IntentosLetra = juego1.intentosLetra;
+    ViewBag.PalabraActual = juego1.palabraActual;
+    ViewBag.PalabraActualVector = juego1.palabraActualVector;
+    ViewBag.Intentos = juego1.intentos;
+    return View("Pantalla8");
+}
+
+
+[HttpPost]
+public IActionResult IntentarLetra(char letra)
+{
+    juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+    juego1.ActualizarIntento(letra);
+    HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
+    ViewBag.LetrasAdivinadas = juego1.letrasAdivinadas;
+    ViewBag.Palabra = juego1.palabra;
+    ViewBag.IntentosLetra = juego1.intentosLetra;
+    ViewBag.PalabraActual = juego1.palabraActual;
+    ViewBag.PalabraActualVector = juego1.palabraActualVector;
+    ViewBag.Intentos = juego1.intentos;
+    return View("Pantalla8");
+}
+
+[HttpPost]
+public IActionResult ArriesgarPalabra(string palabra)
+{
+    juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+    bool gano = juego1.ArriesgarPalabra(palabra);
+    HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
+    if (gano)
+        return View("Pantalla9");
+    else
+        return RedirectToAction("ActualizarAhorcado");
+}
 
     public IActionResult Perdiste()
     {

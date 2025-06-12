@@ -6,7 +6,7 @@ public class juego
     public string nombrePersonaje { get; set; }
     public int nivel { get; set; }
      public string clave { get; set; }
-     public string palabraSecreta { get; set; }
+     public string palabra { get; set; }
 
  public  List<char> letrasAdivinadas { get; private set; }
         public  List<char> intentosLetra { get; private set; }
@@ -16,11 +16,11 @@ public class juego
         
          public juego (string nombreJugador)
     {
-        nombreJugador = nombreJugador;
+         this.nombreJugador = nombreJugador;
         nivel = 0;
         nombrePersonaje = null;
         clave = "7777";
-        palabra = "Humita";
+        palabra = "HUMITA";
          intentos = 0;
             letrasAdivinadas = new List<char>();
             intentosLetra = new List<char>();
@@ -30,14 +30,15 @@ public class juego
 
 
 
-    public  void inicializarPalabraActual()
-    {
-        letrasAdivinadas = new List<char>();
-        for(int i = 0; i < palabra.Length; i++){
-            palabraActualVector[i] =  '_';
-            palabraActual += palabraActualVector[i] + " ";
-        }   
-    }
+  public void inicializarPalabraActual()
+{
+    letrasAdivinadas = new List<char>();
+    palabraActual = "";
+    for(int i = 0; i < palabra.Length; i++){
+        palabraActualVector[i] = '_';
+        palabraActual += palabraActualVector[i] + " ";
+    }   
+}
 
     public  void ActualizarIntento(char letraIngresada)
     {
@@ -50,25 +51,27 @@ public class juego
 
         else {
              intentos ++;
+               actualizarPalabra(letraIngresada);
              intentosLetra.Add(letraIngresada);
         }
     }
 
 
-    private  void actualizarPalabra(char letraIngresada)
+    private void actualizarPalabra(char letraIngresada)
+{
+    for (int i = 0; i < palabra.Length; i++)
     {
-        palabraActual = "";
-        for (int i = 0; i < palabra.Length; i++)
+        if (palabra[i] == letraIngresada)
         {
-            if (palabra[i] == letraIngresada)
-            {
-                palabraActualVector[i] = letraIngresada; 
-               
-            }
-            palabraActual += palabraActualVector[i];
+            palabraActualVector[i] = letraIngresada;
         }
     }
-
+    palabraActual = "";
+    for (int i = 0; i < palabra.Length; i++)
+    {
+        palabraActual += palabraActualVector[i] + " ";
+    }
+}
    
          public  bool ArriesgarPalabra(string palabraIngresada)
         {
