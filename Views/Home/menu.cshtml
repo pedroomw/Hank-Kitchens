@@ -2,13 +2,15 @@
     ViewData["Title"] = "Menu";
 }
 
-<div>
-    
-    <h1>Bienvenido @ViewBag.NombreJugador</h1>
-    <ul >
+<body>
+<main class="Menu">
+    <div>
+        <h1>Bienvenido @ViewBag.NombreJugador</h1>
+            <ul>
                 <li><a href='@Url.Action("SiguienteNivel", "Home")'>Jugar</a></li>
                 <li><a href='@Url.Action("Tutorial", "Home")'> Tutorial</a></li>
-                <li><a href='@Url.Action("Creditos", "Home")'> Más información</a></li>
-               
+                <li><a href='@Url.Action("Creditos", "Home")'> Más información</a></li> 
             </ul>
-</div>
+    </div>
+</main>
+</body>
