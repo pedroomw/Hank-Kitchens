@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ORT\\Hank-s-Kitchen\\PrimerProyecto.csproj": {}
+    "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj": {}
   },
   "projects": {
-    "D:\\ORT\\Hank-s-Kitchen\\PrimerProyecto.csproj": {
+    "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ORT\\Hank-s-Kitchen\\PrimerProyecto.csproj",
+        "projectUniqueName": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj",
         "projectName": "PrimerProyecto",
-        "projectPath": "D:\\ORT\\Hank-s-Kitchen\\PrimerProyecto.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ORT\\Hank-s-Kitchen\\obj\\",
+        "projectPath": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj",
+        "packagesPath": "C:\\Users\\49552421\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49552421\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

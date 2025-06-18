@@ -160,6 +160,11 @@ public IActionResult ArriesgarPalabra(string palabra)
         return View();
     }
 
+    public IActionResult creditos()
+    {
+        return View();
+    }
+
     public IActionResult Carta()
     {
         return View();

@@ -76,9 +76,9 @@ h1{
   list-style: none;
   color: white;
   text-decoration:none;
-    background-color:black;
-    padding:0.2%;
-    border-radius: 7px;
+  background-color:black;
+  padding:0.2%;
+  border-radius: 7px;
 }
 
 
@@ -101,3 +101,95 @@ h1{
 .P1 li{
   margin-left: 1%;
 }
+
+
+.P2{
+  background-image: url("/Images/Pantalla2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+
+.P3{
+  background-image: url("/Images/Pantalla3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+
+.P4{
+  background-image: url("/Images/Pantalla4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.P4 li{
+  margin-left: 68%;
+  padding-top: 16.5%;
+ 
+}
+
+.P4 li a {
+  text-align:center;
+  list-style: none;
+  color: transparent;
+  text-decoration:none;
+  background-color: transparent;
+  padding:0.2%;
+  border-radius: 7px;
+}
+
+.P4 li a:hover{
+  text-align:center;
+  list-style: none;
+  color: white;
+  text-decoration:none;
+  background-color:  black;
+  opacity: 0.5;
+  padding:0.2%;
+  border-radius: 7px;
+}
+
+
+.P5{
+  background-image: url("/Images/Pantalla5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  padding-left: 2%;
+}
+
+.P5 h1{
+  padding-top: 2%;
+  width: 40%;
+  height: auto;
+}
+
+.P5 h2{
+  width: 20%;
+  background: #e9ecef;
+  opacity: 0.5;
+  height: auto;
+  font-size: 80%;
+}
+
+.P5 li a {
+  padding: 1%;
+  margin-left: 70%;
+  margin-top: 100%;
+  
+}
+
+.P5 li {
+  width: 10%;
+  margin-left: 70%;
+  margin-bottom: 20%;
+}
+
