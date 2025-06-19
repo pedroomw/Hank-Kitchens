@@ -51,20 +51,29 @@ public class HomeController : Controller
 
 
 
-    public IActionResult SiguienteNivel(string respuesta)
+  public IActionResult SiguienteNivel(string respuesta)
+{
+    juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
+    juego1.verificarRespuesta(respuesta);
+    HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
+
+    if (respuesta == "Tutorial") 
     {
-        juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
-         juego1.verificarRespuesta(respuesta);
-        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
-        if(respuesta != "0")
-        {
-           return View("Pantalla"+juego1.nivel); 
-        } else {
-return View("Perdiste");
-        }
-            
-        
+        return View("Tutorial");
     }
+    else if ( respuesta == "Creditos") 
+    {
+        return View("creditos");
+    }
+    else if (respuesta != "0")
+    {
+        return View("Pantalla" + juego1.nivel); 
+    }
+    else
+    {
+        return View("Perdiste");
+    }
+}
 
     public IActionResult Menu()
     {

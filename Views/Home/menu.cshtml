@@ -7,10 +7,20 @@
     <div>
         <h1>Bienvenido @ViewBag.NombreJugador</h1>
             <ul>
-                <li><a href='@Url.Action("SiguienteNivel", "Home")'>Jugar</a></li>
-                <li><a href='@Url.Action("Tutorial", "Home")'> Tutorial</a></li>
-                <li><a href='@Url.Action("Creditos", "Home")'> Más información</a></li> 
-            </ul>
+       <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Jugar</button> 
+           </form>
+
+ <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "Tutorial">
+       <button type="submit">Tutorial</button>   
+           </form>
+
+                   <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "Creditos">
+       <button type="submit">Más información</button>  
+           </form>
     </div>
 </main>
 </body>
