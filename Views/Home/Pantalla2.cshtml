@@ -6,7 +6,9 @@
     <main class="P2">
         <div>
             <h1>Ohhh parece que no hay nadie... dejame hechar un vistazo en la Hank´s Kitchen</h1>
-            <li><a href='@Url.Action("SiguienteNivel", "Home")'> Hechar un vistazo</a></li>
+          <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Echar un vistazo</button>
         </div>
     </main>
 </body>

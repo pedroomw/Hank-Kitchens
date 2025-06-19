@@ -5,5 +5,7 @@
 <main class = "P11">
 <p> Es hora de sacar la empanada </p>
 
-<a href='@Url.Action("SiguienteNivel", "Home")'>Sacar empanada</a>
+  <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Sacar Empanada</button>
 </main>

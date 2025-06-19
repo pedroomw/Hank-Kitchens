@@ -7,16 +7,16 @@
 <div>
 <h1>-HOLA QUIEN ERES?</h1>
 <p> ELIGE UN PERSONAJE (ESTA DECISION SERA CLAVE PARA TU FUTURO)</p>
-<form action='@Url.Action("GuardarPersonaje", "Home")' method="post" enctype="multipart/form-data">
+<form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
        
         <label for="personaje">Elegí tu personaje:</label>
 <select id="personaje" name="personaje">
-    <option value="Poda">Poda</option>
-    <option value="Chef">Chef</option>
-    <option value="Ciruja">Ciruja</option>
-    <option value="Fichu">Fichu</option>
-    <option value="Batata">Batata</option>
-    <option value="Theodoro">Theodoro</option>
+    <option value="1">Poda</option>
+    <option value="1">Chef</option>
+    <option value="0">Ciruja</option>
+    <option value="1">Fichu</option>
+    <option value="1">Batata</option>
+    <option value="1">Theodoro</option>
 </select>
 <button type="submit">Aceptar</button>
     </form>

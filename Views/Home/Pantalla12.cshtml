@@ -5,5 +5,7 @@
 <main class = "P12">
 <p> Pues ahora le voy a entregar la empanada a hank, espero que no le guste tanto porque tal vez me quiera dejar aqui cocinandole para siempre. No quiero quedar aqui para siempre.</p>
 
-<a href='@Url.Action("SiguienteNivel", "Home")'>Entregar a Hank's.</a>
+ <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Entregar a Hank</button>
 </main>

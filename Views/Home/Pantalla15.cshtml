@@ -6,7 +6,14 @@
 <h1>Eso fue facil!! La llave estaba al lado de la puerta. Me quiero vengar!!!!</h1>
 <p> Encuentra un elemento para vengarte de Hank por encerrarte y hacerte cocinar empanadas.</p>
 
-<a href='@Url.Action("SiguienteNivel", "Home")'>Pillar pepinos duales</a>
-<a href='@Url.Action("ElementoEquivocado", "Home")'>Pillar Ametralladora AK-47</a>
-<a href='@Url.Action("ElementoEquivocado", "Home")'>Pillar cuchillo "Sable de las tinieblas"</a>
-</main>
+ <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Pillar pepinillos duales</button>
+
+ <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "">
+       <button type="submit">Pillar ametrallladora AK-47</button>
+
+ <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "">
+       <button type="submit">Pillar Sable Infinito</button>

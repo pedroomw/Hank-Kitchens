@@ -4,6 +4,9 @@
 <main class = "P6">
 <div>
 <h1>Ohhhh, con que así se ve la heladera del Vasco. Me voy a agarrar una empanada y la voy a cocinar y la voy a comer. Espero no aparezca Hank.</h1>
-<li><a href='@Url.Action("SiguienteNivel", "Home")'> Pillar empanada</a></li>
+ 
+  <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Pillar empanada</button>
 </div>
   </main>

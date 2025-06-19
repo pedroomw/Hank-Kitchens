@@ -6,5 +6,6 @@
 <h1>Voy a acercarme a su habitación. Es esa de atrás.</h1>
 <p> Camina hacia la habitación de Hank.</p>
 
-<a href='@Url.Action("SiguienteNivel", "Home")'>Caminar hacia habitación de Hank</a>
-</main>
+ <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "">
+       <button type="submit">Caminar hacia habitación de Hank</button></main>

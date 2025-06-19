@@ -6,8 +6,16 @@
 <p> Ok. Ahora que se que la empanada es de humita debo cocinar la empanada de humita como le gusta a Hank </p>
 <p> Lo haré con... </p>
 
-
-<li><a href='@Url.Action("SiguienteNivel", "Home")'>Freidora</a></li>
-<li><a href='@Url.Action("Perdiste", "Home")'>Horno</a></li>
-<li><a href='@Url.Action("Perdiste", "Home")'>Microondas...</a></li>                                          
+ 
+  <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "Freidora">
+       <button type="submit">Freidora</button>
+ 
+  <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "">
+       <button type="submit">Horno</button>
+ 
+  <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "">
+       <button type="submit">Microondas</button>                                        
 </main>
