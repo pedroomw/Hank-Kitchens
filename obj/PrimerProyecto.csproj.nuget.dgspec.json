@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj": {}
+    "C:\\Users\\49552421\\Hank-s-Kitchen\\PrimerProyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj": {
+    "C:\\Users\\49552421\\Hank-s-Kitchen\\PrimerProyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj",
+        "projectUniqueName": "C:\\Users\\49552421\\Hank-s-Kitchen\\PrimerProyecto.csproj",
         "projectName": "PrimerProyecto",
-        "projectPath": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\PrimerProyecto.csproj",
+        "projectPath": "C:\\Users\\49552421\\Hank-s-Kitchen\\PrimerProyecto.csproj",
         "packagesPath": "C:\\Users\\49552421\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\obj\\",
+        "outputPath": "C:\\Users\\49552421\\Hank-s-Kitchen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
