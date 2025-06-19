@@ -54,12 +54,12 @@ public class HomeController : Controller
     public IActionResult SiguienteNivel(string respuesta)
     {
         juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
-         verificarRespuesta(respuesta);
+         juego1.verificarRespuesta(respuesta);
         HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
-        if(respuesta != 0)
+        if(respuesta != "0")
         {
            return View("Pantalla"+juego1.nivel); 
-        } else if (respuesta == "0"){
+        } else {
 return View("Perdiste");
         }
             

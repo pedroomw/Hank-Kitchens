@@ -18,7 +18,21 @@ public class juego
          public juego (string nombreJugador)
     {
         List<string> respuestas = new List<string>();
-        respuestas.Add("1", "1", "1", "1", "7777", "1", "1", "HUMITA", "Freidora", "1", "1", "1", "1", "1");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("7777");
+        respuestas.Add("7777");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("HUMITA");
+        respuestas.Add("Freidora");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("1");
+        respuestas.Add("1");
         this.nombreJugador = nombreJugador;
         nivel = 0;
         nombrePersonaje = null;

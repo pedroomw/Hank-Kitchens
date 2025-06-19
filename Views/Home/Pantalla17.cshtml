@@ -6,5 +6,8 @@
 <h1>Con que ya te estabas yendo...</h1>
 <p> Ataca a Hank's.</p>
 
-<a href='@Url.Action("SiguienteNivel", "Home")'>Encestar pepinazo</a>
-</main>
+<form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Encestar pepinazo</button>
+          </form>
+          </main>
