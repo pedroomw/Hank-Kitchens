@@ -7,13 +7,13 @@
         <h1> Mmmm. Que ganas de unas empanadas. Realmente deseo comer unas empanadas. Seguramente detrás de esa puerta haya. Pero... fuckkk. Esta BLOQUEADA!!! </h1>
         <h2> Encuentra la carta con la clave para desbloquear la puerta de las empanadas. </h2>
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartaModal">
+        <button class = "carta" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartaModal">
             Ver Carta
         </button>
-        <form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
-            <input type="text" id="claveIngresada" name="claveIngresada" placeholder="Ingresa la clave de la puerta"/>
-            <button type="submit">Confirmar Codigo</button>
-        </form>
+        <form action='@Url.Action("SiguienteNivel", "Home")' method="post">
+    <input type="text" name="respuesta" placeholder="Ingresa la clave de la puerta" />
+    <button type="submit">Confirmar Codigo</button>
+</form>
     </div>
 </main>
 

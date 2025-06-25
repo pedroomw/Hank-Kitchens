@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TPxZVybjwNot9Ux5rcau0yUn/1TOqcUi5xvLgA2KJ8s=",
+  "Hash": "ZUVFIb+fH5i3tXXs1UgZkwVb5AXkCmbZIFGmaaLl02I=",
   "Source": "PrimerProyecto",
   "BasePath": "_content/PrimerProyecto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PrimerProyecto\\wwwroot",
       "Source": "PrimerProyecto",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\css\\site.css",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\favicon.ico",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Carta.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Carta.png",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Carta.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Carta.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Game-Over.mp4",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Game-Over.mp4",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Game-Over.mp4",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\Game-Over.mp4"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Menu.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\heladera.jfif",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
+      "BasePath": "_content/PrimerProyecto",
+      "RelativePath": "Images/heladera.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\heladera.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Menu.png",
+      "SourceId": "PrimerProyecto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Menu.png",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Menu.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla1.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla1.png",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Pantalla1.png",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pantalla1.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla2.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla2.png",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Pantalla2.png",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pantalla2.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla3.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla3.png",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Pantalla3.png",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pantalla3.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla4.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla4.png",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Pantalla4.png",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pantalla4.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla5.png",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla5.png",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "Images/Pantalla5.png",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pantalla5.png"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\js\\site.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PrimerProyecto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49552421\\Documents\\Hank-s-Kitchen\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\",
       "BasePath": "_content/PrimerProyecto",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

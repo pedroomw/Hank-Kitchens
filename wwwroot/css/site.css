@@ -95,12 +95,21 @@ h1{
   padding-left: 2%;
   width: 40%;
   height: auto;
+  color: #f8f9fa;
 }
 
-.P1 button{
-  margin-left: 1%;
+ button{
+  margin-left: 5%;
+  width: 9%;
+  background-color: #c7cdd3d2;
+  color: black;
 }
 
+ button:hover{
+  
+width: 10%;
+background-color: #ff0d0d;
+}
 
 .P2{
   background-image: url("/Images/Pantalla2.png");
@@ -119,6 +128,19 @@ h1{
   height: 800px;
 }
 
+.P3 button{
+
+  width: 9%;
+  background-color: #c7cdd3d2;
+  color: black;
+}
+
+.P3 button:hover{
+  
+width: 10%;
+background-color: #2cdd00;
+}
+
 
 .P4{
   background-image: url("/Images/Pantalla4.png");
@@ -129,15 +151,16 @@ h1{
 }
 
 .P4 button{
-  margin-left: 68%;
-  padding-top: 16.5%;
+
   text-align:center;
   list-style: none;
   color: transparent;
   text-decoration:none;
   background-color: transparent;
-  padding:0.2%;
-  border-radius: 7px;
+margin-top: 15%;
+margin-left: 71%;
+  border: none;
+  width: 2.3%;
 }
 
 
@@ -167,27 +190,50 @@ h1{
 }
 .P5 h1{
   padding-top: 2%;
-  width: 40%;
+  width: 60%;
   height: auto;
-  float: left;
+  width: fit-content; 
+  padding: 1% 2%;
+  background: rgba(233, 236, 239, 0.7); 
+  height: auto;
+  font-size: 15px;
+  border-radius: 10px;  
+  color: #222;         
+  display: inline-block;    
+
 }
 
-.P5 h2{
-  width: 20%;
-  background: #e9ecef;
-  opacity: 0.5;
+.P5 h2 {
+  width: fit-content; 
+  width: 29%;
+  padding: 1% 2%;
+  background: rgba(233, 236, 239, 0.7); 
   height: auto;
   font-size: 80%;
+  border-radius: 10px;  
+  color: #222;         
+
+
 }
 
-.P5 button {
-  padding: 1%;
-  width: 5%;
-  opacity: 0.5; 
-  background-image: url(/Images/Carta.png);
+.carta {
+  
+ color: transparent;
+ background-color: transparent;
+ border: none;
+  width: 2%;
   float: right;
-  margin-right: 25%;
-  margin-top: -20%;
+  margin-right: 27%;
+  margin-top: 5%;
+transition: background 0.3s, color 0.3s;
+padding: 1%;
+}
+
+.carta:hover {
+  background-image: url('/Images/Carta.png');
+  background-size: cover;
+  background-position: center;
+  color: #111;            
 }
 
 .P5 form button {
@@ -203,4 +249,32 @@ h1{
 .P5 form 
 {
   width: 50%;
+}
+
+
+
+.P6{
+  background-image: url("/Images/heladera.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  padding-left: 2%;
+}
+.P6 main 
+{
+  display: block;
+}
+
+.P6 h1 {
+  width: fit-content; 
+  width: 29%;
+  padding: 1% 2%;
+  background: rgba(233, 236, 239, 0.7); 
+  height: auto;
+  font-size: 80%;
+  border-radius: 10px;  
+  color: #222;         
+
+
 }

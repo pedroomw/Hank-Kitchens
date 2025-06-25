@@ -51,7 +51,7 @@ public class HomeController : Controller
 
 
 
-  public IActionResult SiguienteNivel(string respuesta)
+public IActionResult SiguienteNivel(string respuesta)
 {
     juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
     juego1.verificarRespuesta(respuesta);
@@ -61,9 +61,13 @@ public class HomeController : Controller
     {
         return View("Tutorial");
     }
-    else if ( respuesta == "Creditos") 
+    else if (respuesta == "Creditos") 
     {
         return View("creditos");
+    }
+    else if (respuesta == "7777" && juego1.nivel == 6)
+    {
+        return View("Pantalla6");
     }
     else if (respuesta != "0")
     {
@@ -74,7 +78,6 @@ public class HomeController : Controller
         return View("Perdiste");
     }
 }
-
     public IActionResult Menu()
     {
         juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
