@@ -126,12 +126,12 @@ public IActionResult IntentarLetra(char letra)
 public IActionResult ArriesgarPalabra(string palabra)
 {
     juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
-    bool gano = juego1.ArriesgarPalabra(palabra);
+    bool gano = juego1.verificarPalabra(palabra);
     HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
     if (gano)
         return View("Pantalla9");
     else
-        return RedirectToAction("ActualizarAhorcado");
+        return View("Pantalla8");
 }
       public IActionResult Tutorial()
     {

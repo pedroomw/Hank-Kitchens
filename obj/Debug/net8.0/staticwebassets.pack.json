@@ -1,99 +1,107 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Carta.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Carta.png",
       "PackagePath": "staticwebassets\\Images\\Carta.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Game-Over.mp4",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Game-Over.mp4",
       "PackagePath": "staticwebassets\\Images\\Game-Over.mp4"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Menu.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Menu.png",
       "PackagePath": "staticwebassets\\Images\\Menu.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla1.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Pantalla1.png",
       "PackagePath": "staticwebassets\\Images\\Pantalla1.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla2.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Pantalla2.png",
       "PackagePath": "staticwebassets\\Images\\Pantalla2.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla3.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Pantalla3.png",
       "PackagePath": "staticwebassets\\Images\\Pantalla3.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla4.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Pantalla4.png",
       "PackagePath": "staticwebassets\\Images\\Pantalla4.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\Pantalla5.png",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\Pantalla5.png",
       "PackagePath": "staticwebassets\\Images\\Pantalla5.png"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\Images\\heladera.jfif",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\ahorcado.jfif",
+      "PackagePath": "staticwebassets\\Images\\ahorcado.jfif"
+    },
+    {
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\hankEnfado.jpg",
+      "PackagePath": "staticwebassets\\Images\\hankEnfado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\Images\\heladera.jfif",
       "PackagePath": "staticwebassets\\Images\\heladera.jfif"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\49002222\\Hank-s-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\49002222\\Hank-Kitchen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

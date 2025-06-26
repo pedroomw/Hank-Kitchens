@@ -30,22 +30,22 @@ public class juego
         palabraActual = "";
 
 
-        palabra = "PALABRA"; 
+        palabra = "HUMITA"; 
 
 
         palabraActualVector = new char[palabra.Length];
     }
 
-    public void inicializarPalabraActual()
+  public void inicializarPalabraActual()
+{
+    letrasAdivinadas = new List<char>();
+    palabraActual = "";
+    for (int i = 0; i < palabra.Length; i++)
     {
-        letrasAdivinadas = new List<char>();
-        palabraActual = "";
-        for (int i = 0; i < palabra.Length; i++)
-        {
-            palabraActualVector[i] = '_';
-            palabraActual += palabraActualVector[i] + " ";
-        }
+        palabraActualVector[i] = '_'; 
+        palabraActual += palabraActualVector[i] + " ";
     }
+}
 
     public void ActualizarIntento(char letraIngresada)
     {
@@ -53,13 +53,12 @@ public class juego
         {
             letrasAdivinadas.Add(letraIngresada);
             actualizarPalabra(letraIngresada);
-            intentos++;
+         
         }
         else
         {
             intentos++;
-            actualizarPalabra(letraIngresada);
-            intentosLetra.Add(letraIngresada);
+          
         }
     }
 
@@ -79,18 +78,18 @@ public class juego
         }
     }
 
-    public bool ArriesgarPalabra(string palabraIngresada)
+ public bool verificarPalabra(string palabraIngresada)
+{
+    if (palabraIngresada.ToUpper() == palabra.ToUpper())
     {
-        if (palabraIngresada == palabra)
-        {
-            palabraActual = palabra;
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        palabraActual = palabra; 
+        return true;
     }
+    else
+    {
+        return false;
+    }
+}
 
    public void verificarRespuesta(string respuesta)
 {
