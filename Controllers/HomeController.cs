@@ -111,7 +111,7 @@ public IActionResult InicializarAhorcado()
 public IActionResult IntentarLetra(char letra)
 {
     juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
-    juego1.ActualizarIntento(letra);
+    juego1.ActualizarIntento(letra); // Solo actualiza estado
     HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
     ViewBag.LetrasAdivinadas = juego1.letrasAdivinadas;
     ViewBag.Palabra = juego1.palabra;
@@ -119,7 +119,7 @@ public IActionResult IntentarLetra(char letra)
     ViewBag.PalabraActual = juego1.palabraActual;
     ViewBag.PalabraActualVector = juego1.palabraActualVector;
     ViewBag.Intentos = juego1.intentos;
-    return View("Pantalla8");
+    return View("Pantalla8"); // Solo refresca pantalla, NO reinicia nada
 }
 
 [HttpPost]

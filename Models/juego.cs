@@ -19,7 +19,7 @@ public class juego
     {
         respuestas = new List<string>
         {
-           "1", "1", "1", "1", "1", "7777", "1", "1", "1", "HUMITA", "Freidora", "1", "1", "1", "1", "1"
+           "1", "1", "1", "1", "1", "7777", "1", "1", "1", "HUMITA", "1", "1", "1", "1", "1", "1"
         };
         this.nombreJugador = nombreJugador;
         nivel = 0;
@@ -58,6 +58,7 @@ public class juego
         else
         {
             intentos++;
+            actualizarPalabra(letraIngresada);
           
         }
     }
@@ -93,8 +94,7 @@ public class juego
 
    public void verificarRespuesta(string respuesta)
 {
-    int idx = nivel;
-    if (idx >= 0 && idx < respuestas.Count && respuestas[idx] == respuesta)
+    if (respuestas[nivel] == respuesta)
         nivel++;
 }
 }

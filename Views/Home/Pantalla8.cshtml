@@ -6,22 +6,11 @@
 
     <h1>Hank's Ahorcado</h1>
  
-    <h2>Este es el juego de ahorcado, jugar con MAYUSCULAS</h2>
+    <h2>Adivina la empanada favorita de HANK, jugar con MAYUSCULAS</h2>
 
-   <h3> Intentos: @ViewBag.Intentos </h3>
+   <h3> Fallos: @ViewBag.Intentos </h3>
 
-    <h3>Intento letra: <h3>
-    @if (ViewBag.IntentosLetra != null)
-    {
-        <h3>
-        @foreach (char letra in ViewBag.IntentosLetra)
-        {
-             @letra
-        }
-        </h3>
-    }
-
-    <p>@ViewBag.PalabraActual  <p> 
+    <p>@ViewBag.PalabraActual  </p> 
     <form action='@Url.Action("IntentarLetra", "Home")' method="POST">
         <h2>Arriesgar Letra</h2>
         <input type="text" name="letra" maxlength="1"  placeholder="Ingrese una letra" />

@@ -272,13 +272,30 @@ padding: 1%;
   padding: 1% 2%;
   background: rgba(233, 236, 239, 0.7); 
   height: auto;
-  font-size: 80%;
+  font-size: 20px;
   border-radius: 10px;  
   color: #222;         
 
 
 }
+.P6 h2 { width: fit-content; 
+  width: 29%;
+  padding: 0,7%;
+  background: rgba(233, 236, 239, 0.7); 
+  height: auto;
+  font-size: 20px;
+  border-radius: 10px;  
+  color: #222; }
 
+.P6 button { text-align:center;
+  list-style: none;
+margin-top: 3.5%;
+  text-decoration:none;
+  background-color: transparent;
+color: transparent;
+margin-left: 66%;
+  border: none;
+  width: 10%;}
 
 .P7 {
   background-image: url("/Images/hankEnfado.jpg");
@@ -330,7 +347,8 @@ padding: 1%;
 
 .P7 form {
   margin-top: 5%;
-  margin-left: 1%;
+  margin-left: 48%;
+  width: 100%;
 }
 
 .P8 {
@@ -342,7 +360,7 @@ padding: 1%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  /* Centra verticalmente el contenido */
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -350,7 +368,7 @@ padding: 1%;
 }
 
 .P8 h1, .P8 h2, .P8 h3, .P8 p {
-  background: rgba(233,236,239,0.8);   /* Fondo semitransparente */
+  background: rgba(233,236,239,0.8);   
   border-radius: 10px;
   padding: 0.7em 1.2em;
   margin: 0.4em 0;
@@ -409,3 +427,20 @@ padding: 1%;
   background: #ffa726;
   color: #fff;
 }
+
+.P9 {  background-image: url("/Images/elección.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: inline-block;
+  justify-content: center;}
+
+  .P9 button 
+  {
+    width: 10%;
+    margin: 1em 0 0.5em 0;
+  border-radius: 12px;
+    align-items: center;
+  }
