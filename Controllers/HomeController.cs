@@ -122,10 +122,17 @@ public IActionResult ArriesgarPalabra(string palabra)
     juego juego1 = Objeto.StringToObject<juego>(HttpContext.Session.GetString("juego"));
     bool gano = juego1.verificarPalabra(palabra);
     HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
-    if (gano)
+      if (gano)
+    {
+        juego1.nivel++; // <-- Esto es CLAVE
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
         return View("Pantalla9");
+    }
     else
+    {
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego1));
         return View("Pantalla8");
+    }
 }
       public IActionResult Tutorial()
     {
