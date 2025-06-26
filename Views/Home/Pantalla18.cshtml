@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Pantalla18";
+}
+<main class = "P18">
+<h1>Ese pepinazo hizo mucho daño!! </h1>
+<h1>Hank se tambalea, encestale otro pepinazo porque acordate que son pepinos duales. Tenes otro.</h1>
+<p>Encesta el pepinazo final.</p>
+
+<form action='@Url.Action("SiguienteNivel", "Home")' method="post" enctype="multipart/form-data">
+       <input type = "hidden" name = "respuesta" value = "1">
+       <button type="submit">Encestar pepinazo final</button>
+          </form>
+          </main>

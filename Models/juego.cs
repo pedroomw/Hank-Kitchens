@@ -19,7 +19,7 @@ public class juego
     {
         respuestas = new List<string>
         {
-           "1", "1", "1", "1", "1", "1", "7777", "1", "1", "1", "HUMITA", "1", "1", "1", "1", "1", "1"
+           "1", "1", "1", "1", "1", "7777", "1", "1", "HUMITA","1", "1", "1", "1", "1", "1", "1", "1", "1", "1"
         };
         this.nombreJugador = nombreJugador;
         nivel = 0;
