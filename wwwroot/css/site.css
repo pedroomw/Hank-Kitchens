@@ -490,3 +490,97 @@ margin-left: 66%;
   filter: none;
   text-shadow: 0 0 8px #fff5, 0 0 2px #a00;
 }
+
+
+.P10{
+  background-image: url("/Images/Pantalla10.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+.P10 button{
+  margin-left: 40%;
+  margin-top: 30%;
+}
+
+
+.P11{
+  background-image: url("/Images/Pantalla11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+.P12{
+  background-image: url("/Images/Pantalla12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+
+.P13{
+  background-image: url("/Images/Pantalla13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+
+.P14{
+  background-image: url("/Images/Pantalla14.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+.P15{
+  background-image: url("/Images/Pantalla15.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+.P16{
+  background-image: url("/Images/Pantalla16.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+.P17{
+  background-image: url("/Images/Pantalla17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+
+.P18{
+  background-image: url("/Images/Pantalla18.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+}
+
+
+
+.P19{
+  
+}
