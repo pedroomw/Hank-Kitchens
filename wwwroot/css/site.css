@@ -581,6 +581,263 @@ margin-left: 66%;
 
 
 
-.P19{
-  
+.P15 h1, .P16 h1, .P17 h1, .P18 h1,
+.P15 h2, .P16 h2, .P17 h2, .P18 h2 {
+  background: rgba(233,236,239,0.90);
+  border-radius: 12px;
+  padding: 0.8em 1.5em;
+  margin: 1.2em auto 0.8em auto;
+  color: #b71c1c;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 24px #60000022;
+  text-shadow: 0 2px 8px #fff8, 0 0 2px #a00;
+  width: fit-content;
+  max-width: 80vw;
+}
+
+.P15 h2, .P16 h2, .P17 h2, .P18 h2 {
+  color: #222;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: rgba(255,255,255,0.92);
+  margin-top: 0.5em;
+}
+
+/* Parrafos visibles y legibles */
+.P15 p, .P16 p, .P17 p, .P18 p {
+  background: rgba(255,255,255,0.8);
+  border-radius: 8px;
+  padding: 0.7em 1.2em;
+  margin: 0.6em auto 1em auto;
+  color: #222;
+  font-size: 1.15rem;
+  width: fit-content;
+  max-width: 80vw;
+  text-align: left;
+  box-shadow: 0 2px 10px #b0000022;
+}
+
+/* Botones bien visibles y grandes */
+.P15 button, .P16 button, .P17 button, .P18 button {
+  display: block;
+  margin: 2em auto 0.7em auto;
+  padding: 0.9em 2.5em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #a90000 30%, #5a0000 100%);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #8f000080;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.P15 button:hover, .P16 button:hover, .P17 button:hover, .P18 button:hover {
+  background: linear-gradient(135deg, #d00000 10%, #6a0000 100%);
+  transform: scale(1.06);
+  box-shadow: 0 6px 24px #b00000a0;
+  color: #fffbe9;
+}
+
+.P15 form, .P16 form, .P17 form, .P18 form {
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+
+.P11 h1, .P12 h1, .P13 h1, .P14 h1, .P15 h1, .P16 h1, .P17 h1, .P18 h1,
+.P11 h2, .P12 h2, .P13 h2, .P14 h2, .P15 h2, .P16 h2, .P17 h2, .P18 h2 {
+  background: rgba(233,236,239,0.90);
+  border-radius: 12px;
+  padding: 0.8em 1.5em;
+  margin: 1.2em 0 0.8em 3vw;
+  color: #b71c1c;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 24px #60000022;
+  text-shadow: 0 2px 8px #fff8, 0 0 2px #a00;
+  width: fit-content;
+  max-width: 80vw;
+}
+
+.P11 h2, .P12 h2, .P13 h2, .P14 h2, .P15 h2, .P16 h2, .P17 h2, .P18 h2 {
+  color: #222;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: rgba(255,255,255,0.92);
+  margin-top: 0.5em;
+}
+
+/* Parrafos visibles, legibles, alineados a la izquierda */
+.P11 p, .P12 p, .P13 p, .P14 p, .P15 p, .P16 p, .P17 p, .P18 p {
+  background: rgba(255,255,255,0.8);
+  border-radius: 8px;
+  padding: 0.7em 1.2em;
+  margin: 0.6em 0 1em 3vw;
+  color: #222;
+  font-size: 1.15rem;
+  width: fit-content;
+  max-width: 80vw;
+  text-align: left;
+  box-shadow: 0 2px 10px #b0000022;
+}
+
+/* Botones bien visibles y grandes, alineados a la izquierda */
+.P11 button, .P12 button, .P13 button, .P14 button,
+.P15 button, .P16 button, .P17 button, .P18 button {
+  display: block;
+  margin: 2em 0 0.7em 3vw;
+  padding: 0.9em 2.5em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #a90000 30%, #5a0000 100%);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #8f000080;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.P11 button:hover, .P12 button:hover, .P13 button:hover, .P14 button:hover,
+.P15 button:hover, .P16 button:hover, .P17 button:hover, .P18 button:hover {
+  background: linear-gradient(135deg, #d00000 10%, #6a0000 100%);
+  transform: scale(1.06);
+  box-shadow: 0 6px 24px #b00000a0;
+  color: #fffbe9;
+}
+
+.P11 form, .P12 form, .P13 form, .P14 form,
+.P15 form, .P16 form, .P17 form, .P18 form {
+  text-align: left;
+  margin-left: 3vw;
+  margin-bottom: 0.8em;
+}
+
+/* Pantalla14: Botón "Pillar llave" visible solo en hover y clickeable */
+
+/* Asegúrate de que el contenedor tenga position: relative */
+.P14 { position: relative; }
+
+.P14 .pillar-llave-btn {
+  position: absolute;
+  left: 55vw;
+  top: 70vh;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: auto;
+  transition: opacity 0.3s cubic-bezier(.4,0,.2,1), box-shadow 0.3s;
+  z-index: 10;
+  background: linear-gradient(135deg, #a90000 30%, #5a0000 100%); /* compatible con otros botones */
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.9em 2.5em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  box-shadow: 0 4px 16px #8f000080;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* El botón solo aparece y se vuelve completamente visible al hover */
+.P14 .pillar-llave-btn:hover, 
+.P14 .pillar-llave-btn:focus {
+  opacity: 1;
+  box-shadow: 0 8px 32px #80000099, 0 0 0 4px #fff3 inset;
+  background: linear-gradient(135deg, #f5e000 20%, #f8b400 100%);
+  color: #333;
+}
+
+/* Pantalla19: Estilo para pantalla final con imagen destacada */
+
+/* Pantalla19: Estilo final, rojo, compacto para evitar scroll */
+
+.P19 {
+  background: linear-gradient(135deg, #a90000 0%, #5a0000 100%);
+  min-height: 110vh;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.P19 h1 {
+  background: rgba(40,0,0,0.95);
+  color: #ffe100;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px #a9000022;
+  text-align: center;
+  padding: 0.7em 1.5em;
+  margin: 0 0 1em 0;
+  text-shadow: 0 3px 10px #000a, 0 0 2px #fff8;
+  letter-spacing: 0.07em;
+  max-width: 90vw;
+}
+
+.P19 p {
+  background: rgba(255,255,255,0.90);
+  color: #800;
+  font-size: 1.07rem;
+  border-radius: 9px;
+  padding: 0.8em 1.4em;
+  margin: 0 0 1.2em 0;
+  text-align: center;
+  box-shadow: 0 2px 10px #a9000015;
+  max-width: 70vw;
+}
+
+.P19 .final-img {
+  display: block;
+  margin: 0 auto 1em auto;
+  max-width: 320px;
+  width: 60vw;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px #a9000044, 0 0 0 5px #fff9;
+  border: 3px solid #ffe100;
+  object-fit: cover;
+  max-height: 32vh;
+}
+
+.P19 button, .P19 a.button {
+  display: inline-block;
+  margin: 1.2em auto 0 auto;
+  padding: 0.7em 2em;
+  font-size: 1.09rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #ff1111 0%, #a90000 100%);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #a9000050;
+  transition: background 0.18s, transform 0.14s, box-shadow 0.18s;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 4px #0004;
+}
+
+.P19 button:hover, .P19 a.button:hover {
+  background: linear-gradient(135deg, #ffe100 0%, #d40000 100%);
+  color: #222;
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px #a9000080;
+}
+
+@media (max-width: 600px) {
+  .P19 h1 { font-size: 1.3rem; padding: 0.5em 0.8em; }
+  .P19 p   { font-size: 0.96rem; padding: 0.5em 0.7em;}
+  .P19 .final-img { width: 96vw; max-width: 96vw; max-height: 22vh; }
 }
